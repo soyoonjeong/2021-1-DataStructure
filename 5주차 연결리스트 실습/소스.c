@@ -12,6 +12,7 @@ NODE* getnode() {
 	NODE* str = (NODE*)malloc(sizeof(NODE));
 	str->prev = NULL;
 	str->next = NULL;
+	return str;
 }
 NODE* get(NODE* H, int order_rank,int *list) {
 	if (order_rank <= 0 || order_rank > *list) {

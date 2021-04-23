@@ -12,6 +12,7 @@ NODE* getnode() {
 	NODE* str = (NODE*)malloc(sizeof(NODE));
 	str->prev = NULL;
 	str->next = NULL;
+	return str;
 }
 NODE* get(NODE* H, NODE* T, int order_rank) {
 	NODE* p = H;

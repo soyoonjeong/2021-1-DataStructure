@@ -21,5 +21,14 @@
     <ClCompile Include="소스(VER2).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2회차.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="addnodeafter.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="headertrailernone.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
